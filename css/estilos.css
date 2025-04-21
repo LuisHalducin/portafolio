@@ -164,4 +164,39 @@
       opacity: 1;
     }
   }
+  .proyecto-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .proyecto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .proyecto-img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+  }
+  
+  .botones-proyecto .btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botones-proyecto .btn:hover {
+    background-color: #0056b3;
+  }
   
