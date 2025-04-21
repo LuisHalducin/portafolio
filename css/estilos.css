@@ -1,0 +1,167 @@
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #f4f7f6;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* Encabezado */
+  .header {
+    background-color: #1f2833;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header .titulo {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #ffb400;
+  }
+  
+  /* Sección de Proyectos */
+  .proyecto {
+    padding: 40px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .titulo-seccion {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .proyecto-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .proyecto-card ul {
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  
+  .proyecto-card li {
+    margin-bottom: 5px;
+  }
+  
+  .botones-proyecto {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .botones-proyecto .btn {
+    padding: 10px 20px;
+    background-color: #ffb400;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .botones-proyecto .btn:hover {
+    background-color: #ff9f00;
+  }
+  
+  /* Habilidades */
+  .habilidades {
+    padding: 40px 0;
+    background-color: #fff;
+  }
+  
+  .habilidades-lista {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .habilidad-item {
+    background-color: #1f2833;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    transition: transform 0.3s;
+  }
+  
+  .habilidad-item:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Contacto */
+  .contacto {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #1f2833;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+  }
+  
+  /* Animaciones */
+  .proyecto-card, .habilidad-item {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  
+  .proyecto-card {
+    animation-delay: 0.5s;
+  }
+  
+  .habilidad-item {
+    animation-delay: 1s;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
